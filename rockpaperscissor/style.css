@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: #222831;
+    color: white;
+    font-family: "Pixelify Sans", sans-serif;
+}
+.container {
+    margin: auto;
+    width: 600px;
+    height: 600px;
+    text-align: center;
+    background: rgb(49,54,63);
+    background: radial-gradient(circle, rgba(49,54,63,1) 0%, rgba(34,40,49,1) 70%);
+}
+h2{
+    margin-bottom: 20px;
+}
+
+
+.scoreboard {
+    padding: 60px;
+
+}
+
+#winsText {
+    color: greenyellow;
+}
+#tiesText {
+    color: yellow;
+}
+#losesText {
+    color: red;
+}
+
+
+.enemy {
+    margin-bottom: 50px;
+}
+#enemy {
+    height: 128px ;
+    width: 128px;
+    transition: all 0.3s ease;
+}
+
+#rock,#paper,#scissors {
+    height: 128px ;
+    width: 128px;
+    transition: all 0.3s ease;
+}
+#rock:hover,#paper:hover,#scissors:hover {
+    height: 140px;
+    width: 140px;
+}
+#rock:active,#paper:active,#scissors:active {
+    transition: 0s;
+    height: 128px;
+    width: 128px;
+}
+
